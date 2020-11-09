@@ -8,7 +8,7 @@ body {
   background: #24292e;
   color: #9ea5b4;
   width: 50%;
-  margin: 20% auto;
+  margin: 10% auto;
 }
 
 code {
@@ -22,9 +22,10 @@ p {
 [href] {
   color: #9ea5b4;
   text-decoration: none;
+  border-bottom: 2px solid #4078c0;
 }
 [href]:hover {
-  color: blueviolet;
+  color: #4078c0;
 }
 .search-container {
   display: flex;
@@ -52,6 +53,8 @@ button {
   width: 95%;
   margin-left: 0;
   margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 button:hover {
@@ -60,6 +63,7 @@ button:hover {
 }
 .results-container {
   margin-top: 20px;
+  width: 100%;
 }
 
 .results__headers {
