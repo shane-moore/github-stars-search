@@ -3,11 +3,11 @@ import React, { useState, useEffect } from 'react';
 
 function App() {
 
-  // useState is a hook that lets you add state to function components
-  // returns current state and function that updates it
 
-  // Declare a state variable to keep track of the searched user and the GitHub API's JSON response with the searched user's repo data
+  // Declare a state variable to keep track of the searched user and
   const [user, setuser] = useState('');
+
+  // Declare a state variable containing the GitHub API's JSON response with the searched user's repo data
   const [currentRepos, setCurrentRepos] = useState([]);
 
    // useEffect hook will call GitHub users REST API and will assign returned user's repo data as JSON after render and on change of the 'user' state
