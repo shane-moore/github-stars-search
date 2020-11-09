@@ -58,7 +58,6 @@ function App() {
     }
 
   // return repo and stars data as JSX to the mapping function
-
   function resultsMap(repo) {
     return (
       <div className="results" key="repo.id">
@@ -68,7 +67,7 @@ function App() {
     );
   }
 
-  // return some JSX to render
+  // return some JSX to render to the page
   return (
     <main>
       <section>
