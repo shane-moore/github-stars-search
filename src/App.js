@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 function App() {
 
 
-  // Declare a state variable to keep track of the searched user and
+  // Declare a state variable to keep track of the searched user
   const [user, setuser] = useState('');
 
   // Declare a state variable containing the GitHub API's JSON response with the searched user's repo data
