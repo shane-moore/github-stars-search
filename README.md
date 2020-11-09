@@ -1,6 +1,6 @@
 # Getting Started with GitHub Stars Search
 
-GitHub Stars Search can be used to search for a GitHub user and be returned links to all of their repositories ranked by stars in descending order.
+GitHub Stars Search can be used to search for a GitHub user via the GitHub REST API and be returned links to all of their repositories ranked by stars in descending order.
 
 The production app is hosted via Netlify at https://github-stars-search.netlify.app/.
 
@@ -29,7 +29,7 @@ Your app is ready to be deployed
 
 ## Deployment
 
-This app has been deployed to https://github-stars-search.netlify.app/ using the Netlify CLI.
+This app has been deployed to https://github-stars-search.netlify.app/ using Netlify CLI.
 
 ## ToDo
 See the [Issues](https://github.com/shane-moore/github-stars-search/issues) section to see additional features ideas
